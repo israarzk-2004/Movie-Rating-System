@@ -2,9 +2,9 @@
 # Uses: Variables - Lists - Loops - Conditions - Functions - OOP
 
 class Movie:
-    def init(self, name, rating):
-        self.name = name
-        self.rating = rating
+def __init__(self, name, rating):  
+    self.name = name
+    self.rating = rating
 
     def get_category(self):
         if self.rating < 7:
